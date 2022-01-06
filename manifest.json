@@ -1,0 +1,24 @@
+{
+    "name": "Feedly to Notion",
+    "description": "Populate your notion database from feedly",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": ["https://api.notion.com/v1/*"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/logo_app_16.png",
+            "32": "/images/logo_app_32.png",
+            "48": "/images/logo_app_48.png",
+            "128": "/images/logo_app_128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/logo_app_16.png",
+        "32": "/images/logo_app_32.png",
+        "48": "/images/logo_app_48.png",
+        "128": "/images/logo_app_128.png"
+    },
+    "options_page": "options.html"
+}

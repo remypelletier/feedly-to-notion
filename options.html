@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1 class="title">Settings</h1>
+
+    <!-- User messages -->
+    <div id="messageWrapper"></div>
+
+    <form class="form" id="formOptions" action="#">
+      <div class="form__row">
+        <label class="form__label" for="notionApiKey">Notion Api key</label>
+        <input class="form__input" type="text" name="notionApiKey" id="notionApiKey">
+      </div>
+      <div class="form__row">
+        <label class="form__label" for="notionDatabase">Select database</label>
+        <select class="form__select" name="notionDatabase" id="notionDatabase">
+        </select>
+      </div>
+      <button class="button" type="submit">Submit</button>
+    </form>
+  </body>
+  <script src="js/showMessage.js"></script>
+  <script src="js/NotionApi.js"></script>
+  <script src="js/options.js"></script>
+</html>
